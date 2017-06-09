@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".base.BaseActivity">
+
+    <include layout="@layout/base_toolbar"/>
+
+    <FrameLayout
+        android:id="@+id/error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/base_toolbar"
+        android:visibility="gone"
+        >
+        <include layout="@layout/base_content_error"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/base_contentview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/base_toolbar"
+        android:visibility="visible">
+    </FrameLayout>
+</RelativeLayout>

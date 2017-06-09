@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="windowBackground">#f0f0f2</color>
+
+    <!--系统主题色-->
+    <!--夜间模式-->
+    <color name="darkApp">#2e2e2e</color>
+    <!--少女粉-->
+    <color name="pinkApp">#f57194</color>
+    <!--姨妈红-->
+    <color name="redApp">#f34435</color>
+    <!--咸蛋黄-->
+    <color name="yellowApp">#fec108</color>
+    <!--草苗绿-->
+    <color name="greenApp">#8ac349</color>
+    <!--胖次蓝-->
+    <color name="blueApp">#2197f2</color>
+    <!--基佬紫-->
+    <color name="popApp">#9c29ae</color>
+
+    <color name="whiteApp">#ffffff</color>
+</resources>

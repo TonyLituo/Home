@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+
+    <!--系统主题色-->
+    <!--夜间模式-->
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/darkApp</item>
+        <item name="colorPrimaryDark">@color/darkApp</item>
+        <item name="colorAccent">@color/darkApp</item>
+    </style>
+    <!--少女粉-->
+    <style name="PinkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/pinkApp</item>
+        <item name="colorPrimaryDark">@color/pinkApp</item>
+        <item name="colorAccent">@color/pinkApp</item>
+    </style>
+    <!--姨妈红-->
+    <style name="RedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/redApp</item>
+        <item name="colorPrimaryDark">@color/redApp</item>
+        <item name="colorAccent">@color/redApp</item>
+    </style>
+    <!--咸蛋黄-->
+    <style name="YellowTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/yellowApp</item>
+        <item name="colorPrimaryDark">@color/yellowApp</item>
+        <item name="colorAccent">@color/yellowApp</item>
+    </style>
+    <!--草苗绿-->
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/greenApp</item>
+        <item name="colorPrimaryDark">@color/greenApp</item>
+        <item name="colorAccent">@color/greenApp</item>
+    </style>
+    <!--胖次蓝-->
+    <style name="BlueTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/blueApp</item>
+        <item name="colorPrimaryDark">@color/blueApp</item>
+        <item name="colorAccent">@color/blueApp</item>
+    </style>
+    <!--基佬紫-->
+    <style name="PopTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/popApp</item>
+        <item name="colorPrimaryDark">@color/popApp</item>
+        <item name="colorAccent">@color/popApp</item>
+    </style>
+
+</resources>
